@@ -79,4 +79,4 @@ class NodeShorten {
     }
 }
 const nodeshorten = new NodeShorten();
-module.exports = nodeshorten.shorten;
+export default nodeshorten.shorten;
