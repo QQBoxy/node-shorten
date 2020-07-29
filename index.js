@@ -4,8 +4,8 @@
  Explain: index
 ****************************************By QQBoxy*/
 /*jshint node: true, esversion: 6, browser: true*/
-import MD5 from 'crypto-js/md5';
-import SHA256 from 'crypto-js/sha256';
+const MD5 = require('crypto-js/md5');
+const SHA256 = require('crypto-js/sha256');
 
 class NodeShorten {
     constructor() {
@@ -79,4 +79,6 @@ class NodeShorten {
     }
 }
 const nodeshorten = new NodeShorten();
-export default nodeshorten.shorten;
+module.exports = function (url, params) {
+    return nodeshorten.shorten(url, params);
+};
