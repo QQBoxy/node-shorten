@@ -5,7 +5,7 @@ node-shorten is a simple url shortener for Node.js.
 ## Installation
 
 ```bash
-npm install node-shorten --save-dev
+npm install node-shorten --save
 ```
 
 ## Usage

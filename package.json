@@ -1,6 +1,6 @@
 {
   "name": "node-shorten",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,8 @@
     "url": "https://github.com/QQBoxy/node-shorten/issues"
   },
   "homepage": "https://github.com/QQBoxy/node-shorten#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "crypto-js": "^4.0.0"
-  }
+  },
+  "devDependencies": {}
 }
